@@ -4,25 +4,13 @@
   --white: #f1f2f6;
   --gris: #57606f;
   --darkblue: #2f3542;
-  --lightblue: #7f8fa6;
+  --lightblue: #3c6382;
 }
 body {
   background-color: var(--white);
   margin: 0;
 }
 
-h5 {
-  font-family: "Staatliches", cursive;
-  font-size: 40px;
-  letter-spacing: 4px;
-  color: var(--gris);
-}
-
-h3 {
-  font-family: "Space Mono", monospace;
-  font-size: 18px;
-  color: var(--lightblue);
-}
 #photo {
   height: 550px;
   position: absolute;
@@ -31,13 +19,15 @@ h3 {
 }
 
 .left {
-  padding: 10px;
-  width: 1000px;
+  padding: 20px;
+  margin-left: 60px;
+  width: 700px;
   display: block;
   position: absolute;
   text-align: left;
 }
 #mainheader {
+  margin-top: 30px;
   text-align: left;
   margin-left: 30px;
   padding-left: 15px;
@@ -54,7 +44,7 @@ h3 {
   height: 450px;
   width: auto;
   /* width: 2600px; */
-  background-color: var(--darkblue);
+  background-color: var(--gris);
   color: #fff;
   text-align: center;
 }
@@ -68,6 +58,7 @@ h3 {
   margin-bottom: 80px;
   margin-left: 250px;
   width: 300px;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 .card-1 {
@@ -80,15 +71,27 @@ h3 {
 }
 
 .contact {
-  background-color: var(--darkblue);
+  margin-top: 20px;
+  background-color: var(--gris);
   width: auto;
+  align-content: center;
+  height: 350px;
 }
-
-.icons {
+#items {
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  color: white;
+}
+#github {
   height: 100px;
   width: 100px;
-  display: inline;
-  justify-content: center;
+  margin-left: 200px;
+}
+#linkedin {
+  height: 100px;
+  width: 100px;
+  margin-right: 200px;
 }
 
 footer {
@@ -202,9 +205,6 @@ footer {
   font-weight: 600;
 }
 
-/*
- * slide in from left
- */
 #menuToggle input:checked ~ ul {
   transform: none;
 }
