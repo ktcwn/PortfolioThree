@@ -44,7 +44,7 @@ body {
   height: 450px;
   width: auto;
   /* width: 2600px; */
-  background-color: var(--gris);
+  background-color: var(--darkblue);
   color: #fff;
   text-align: center;
 }
@@ -59,6 +59,10 @@ body {
   margin-left: 250px;
   width: 300px;
   box-shadow: 0 4px 2px -2px gray;
+}
+#img {
+  height: 300px;
+  width: 300px;
 }
 
 .card-1 {
@@ -78,6 +82,7 @@ body {
   height: 350px;
 }
 #items {
+  letter-spacing: 2px;
   font-size: 20px;
   font-family: "Staatliches", cursive;
   text-align: center;
@@ -96,7 +101,7 @@ body {
 
 footer {
   background-color: var(--white);
-  color: white;
+  color: var(--gris);
   height: 100px;
   margin-top: 60px;
   text-align: center;
