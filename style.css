@@ -98,7 +98,10 @@ body {
   width: 100px;
   margin-right: 200px;
 }
-
+.button {
+  background-color: whitesmoke;
+  color: var(--darkblue);
+}
 footer {
   background-color: var(--white);
   color: var(--gris);
